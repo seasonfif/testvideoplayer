@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/single"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="单个ijkplay"/>
+
+        <Button
+            android:id="@+id/some"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="多个ijkplay"/>
+
+        <Button
+            android:id="@+id/android_media"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="多个android media play"/>
+
+    </LinearLayout>
+
+</ScrollView>
